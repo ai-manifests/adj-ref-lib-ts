@@ -9,7 +9,7 @@ Zero runtime dependencies. Pure TypeScript, ESM.
 ## Install
 
 ```bash
-npm install adj-manifest
+npm install @ai-manifests/adj-manifest
 ```
 
 ## Quick example
@@ -20,7 +20,7 @@ import {
   computeCalibration,
   type DeliberationOpened,
   type ProposalEmitted,
-} from 'adj-manifest';
+} from '@ai-manifests/adj-manifest';
 
 const store = new InMemoryJournalStore();
 
