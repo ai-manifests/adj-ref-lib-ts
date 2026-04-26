@@ -1,5 +1,11 @@
 # adj-manifest
 
+[![npm](https://img.shields.io/npm/v/@ai-manifests/adj-manifest.svg?label=npm)](https://www.npmjs.com/package/@ai-manifests/adj-manifest)
+[![Downloads](https://img.shields.io/npm/dm/@ai-manifests/adj-manifest.svg)](https://www.npmjs.com/package/@ai-manifests/adj-manifest)
+[![Node](https://img.shields.io/badge/node-20%2B-blue.svg)](https://nodejs.org/)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Spec](https://img.shields.io/badge/spec-adj--manifest.dev-informational)](https://adj-manifest.dev)
+
 A TypeScript reference implementation of the **Agent Deliberation Journal (ADJ)** specification — the append-only journal format that records every step of a multi-agent deliberation: when it opened, what proposals were emitted, what falsifications happened, when it closed, and what outcome was eventually observed.
 
 This library is one of several reference implementations ([C#](https://github.com/ai-manifests/adj-ref-lib-csharp), [Python](https://github.com/ai-manifests/adj-ref-lib-py)) of the same spec. The spec itself is at [adp-manifest.dev](https://adp-manifest.dev) and is the source of truth; this library implements what the spec says.
